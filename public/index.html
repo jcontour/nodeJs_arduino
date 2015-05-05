@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> pcomp nodejs example </title>
+	<script src='http://localhost:3300/socket.io/socket.io.js'></script>
+	<link rel='stylesheet' type='text/css' href='style.css'>
+	<script src='main.js'></script>
+
+</head>
+<body>
+	<!--sending info to arduino -->
+	<input id="ledOnOff" type='button' name='led' value='OFF' onmousedown='commands();'>
+	<!-- receiving info-->
+	<div id='sensor'> </div>
+</body>
+</html>

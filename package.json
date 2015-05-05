@@ -1,0 +1,16 @@
+{
+  "name": "NodeJsArduino",
+  "version": "0.0.1",
+  "description": "tutorial by Fito",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jessie Contour",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.3",
+    "serialport": "^1.6.3",
+    "socket.io": "^1.3.5"
+  }
+}
